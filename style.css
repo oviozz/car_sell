@@ -1,0 +1,86 @@
+
+
+body{
+    background-color: #dcdcdc;
+
+}
+.container{
+    display: block;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.car-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.car-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.input-card{
+    background-color: #000000;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.input{
+    flex-grow: 1;
+    font-size: 30px;
+    color: #5d5c5c;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 30px;
+    font-family: "PingFang TC";
+    font-weight: bold;
+}
+.pic{
+    border-radius: 10px;
+    margin-top: -20px;
+    max-width: 300px;
+    height: 250px;
+}
+.items{
+    background-color: white;
+    max-width: 300px;
+    max-height: 390px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.add-item{
+    font-size: 4vh;
+    font-weight: bold;
+    color: #232323;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 5px;
+    width: 30vh;
+}
+.add-item:hover{
+    background-color: #c7c7c7;
+}
+.add-item-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+p{
+    font-family: Arial;
+    margin-top: -10px;
+}
+.bottom-card{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    max-width: 300px;
+    margin-top: 15px;
+}
